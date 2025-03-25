@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Oji Fibre Solutions (NZ) Ltd. - New Zealand's leading provider of pulp, paper, and packaging solutions, part of the Global Oji Group">
+    <meta name="keywords" content="pulp, paper products, packaging solutions, sustainability, New Zealand, Oji Group, paper manufacturing">
+    <title>Oji Fibre Solutions - Pulp, Paper & Packaging Solutions</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="font-sans">
+    <!-- Header & Navigation -->
+    <header class="fixed w-full bg-white shadow-md z-50">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <div class="logo">
+                    <a href="/" aria-label="Oji Fibre Solutions Home">
+                        <img src="assets/images/logo.png" alt="Oji Fibre Solutions Logo" class="h-12 w-auto">
+                    </a>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#products" class="nav-link">Products & Services</a>
+                    <a href="#sustainability" class="nav-link">Sustainability</a>
+                    <a href="#careers" class="nav-link">Careers</a>
+                    <a href="#news" class="nav-link">News</a>
+                    <a href="#resources" class="nav-link">Resources</a>
+                    <a href="#contact" class="nav-link">Contact Us</a>
+                </div>
+                <button class="md:hidden" aria-label="Toggle menu" id="menu-toggle">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="hidden md:hidden" id="mobile-menu">
+                <div class="px-2 pt-2 pb-3 space-y-1">
+                    <a href="#products" class="mobile-nav-link">Products & Services</a>
+                    <a href="#sustainability" class="mobile-nav-link">Sustainability</a>
+                    <a href="#careers" class="mobile-nav-link">Careers</a>
+                    <a href="#news" class="mobile-nav-link">News</a>
+                    <a href="#resources" class="mobile-nav-link">Resources</a>
+                    <a href="#contact" class="mobile-nav-link">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero min-h-screen bg-cover bg-center relative flex items-center justify-center" style="background-image: url('assets/images/hero-forest.jpg');">
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+        <div class="container mx-auto px-4 relative z-10 text-center">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 sm:mb-6 text-white">New Zealand's Pulp & Paper Leader</h1>
+                <p class="text-lg sm:text-xl md:text-2xl mb-6 sm:mb-8 text-white max-w-2xl mx-auto">Delivering innovative packaging solutions and sustainable paper products</p>
+                <a href="#contact" class="btn-primary inline-block">Enquire Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Products & Services Section -->
+        <section id="products-services" class="py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12">Products & Services</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="card">
+                        <img src="assets/images/1682486350794.jpeg" alt="Paper products manufacturing and processing" class="w-full h-48 object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="text-xl font-bold mb-2">Paper Products</h3>
+                            <p>High-quality, environmentally responsible paper solutions for various applications.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/iStock-611288548.jpg" alt="Industrial packaging and cardboard box solutions" class="w-full h-48 object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="text-xl font-bold mb-2">Packaging Solutions</h3>
+                            <p>Innovative and sustainable packaging designs that minimize environmental impact.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/20140905-GpPhoto-ManufacturingMonticello_3Rolls_0.jpg" alt="Industrial paper rolls in manufacturing facility" class="w-full h-48 object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="text-xl font-bold mb-2">Pulp Products</h3>
+                            <p>Premium pulp products produced with sustainable manufacturing practices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sustainability Section -->
+        <section id="sustainability" class="py-16 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12">Sustainability</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="card">
+                        <img src="assets/images/environmental-stewardship.jpg" alt="Sustainable forest management and conservation" class="w-full h-48 object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="text-xl font-bold mb-2">Environmental Stewardship</h3>
+                            <p>Leading the way in sustainable forestry and responsible resource management.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/sustainable-innovation-puzzle.jpg" alt="Innovation and sustainability concept with connected puzzle pieces" class="w-full h-48 object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="text-xl font-bold mb-2">Sustainable Innovation</h3>
+                            <p>Investing in research and development of eco-friendly materials and processes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Careers Section -->
+        <section id="careers" class="py-20 bg-gray-50">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12">Careers</h2>
+                <div class="text-center">
+                    <p class="text-xl mb-8">Join our team and be part of New Zealand's leading pulp and paper solutions company</p>
+                    <a href="#careers" class="btn-secondary">View Opportunities</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- News Section -->
+        <section id="news" class="py-20">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12">Latest News</h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <div class="card">
+                        <img src="assets/images/automation.jpg" alt="Advanced automation systems in paper production" class="w-full h-48 object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="text-xl font-bold mb-2">Energy Efficiency Award</h3>
+                            <p>Recognition for implementing cutting-edge energy-saving technologies.</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="assets/images/research-lab.jpg" alt="Research and development laboratory" class="w-full h-48 object-cover rounded-t-lg">
+                        <div class="p-4">
+                            <h3 class="text-xl font-bold mb-2">Research Partnership</h3>
+                            <p>New collaboration with leading research institutions for sustainable innovation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resources Section -->
+        <section id="resources" class="py-16">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12">Resources</h2>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                    <div class="text-center">
+                        <i class="fas fa-file-alt text-4xl text-primary mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Technical Specifications</h3>
+                        <p class="text-gray-600">Detailed product specifications and technical information</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-book text-4xl text-primary mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Product Guides</h3>
+                        <p class="text-gray-600">Comprehensive guides for our paper and packaging products</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-leaf text-4xl text-primary mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Sustainability Reports</h3>
+                        <p class="text-gray-600">Environmental impact and sustainability performance data</p>
+                    </div>
+                    <div class="text-center">
+                        <i class="fas fa-download text-4xl text-primary mb-4"></i>
+                        <h3 class="text-xl font-bold mb-2">Downloads</h3>
+                        <p class="text-gray-600">Brochures, catalogs, and other product resources</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="py-20">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-12">Contact Us</h2>
+                <div class="max-w-2xl mx-auto">
+                    <form class="space-y-6">
+                        <div>
+                            <label for="location" class="block text-sm font-medium text-gray-700">Location</label>
+                            <select id="location" name="location" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+                                <option value="nz">New Zealand</option>
+                                <option value="au">Australia</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="contact-method" class="block text-sm font-medium text-gray-700">Preferred Contact Method</label>
+                            <select id="contact-method" name="contact-method" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+                                <option value="email">Email</option>
+                                <option value="phone">Phone</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="enquiry-type" class="block text-sm font-medium text-gray-700">Enquiry Type</label>
+                            <select id="enquiry-type" name="enquiry-type" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+                                <option value="products">Paper Products</option>
+                                <option value="packaging">Packaging Solutions</option>
+                                <option value="pulp">Pulp Products</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                            <input type="text" id="name" name="name" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+                        </div>
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                            <input type="email" id="email" name="email" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500">
+                        </div>
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                            <textarea id="message" name="message" rows="4" class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500"></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary w-full">Submit Enquiry</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Chat Widget -->
+    <button class="chat-button" id="chatButton" aria-label="Open chat">
+        <i class="fas fa-comments"></i>
+    </button>
+    <div class="chat-modal" id="chatModal">
+        <iframe src="https://copilotstudio.preview.microsoft.com/environments/Default-e1861c85-3a1d-4ba7-8d7d-1c5536d73ddc/bots/cr0d5_myOji/webchat?__version__=2" title="Oji FS Chat Assistant"></iframe>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">About Oji Fibre Solutions</h3>
+                    <p class="text-gray-400">New Zealand's leading provider of pulp, paper, and packaging solutions, proudly part of the Global Oji Group.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#products" class="text-gray-400 hover:text-white">Products & Services</a></li>
+                        <li><a href="#sustainability" class="text-gray-400 hover:text-white">Sustainability</a></li>
+                        <li><a href="#careers" class="text-gray-400 hover:text-white">Careers</a></li>
+                        <li><a href="#news" class="text-gray-400 hover:text-white">News</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li>New Zealand Office</li>
+                        <li>Auckland, New Zealand</li>
+                        <li>Phone: +64 9 XXX XXXX</li>
+                        <li>Email: info@ojifs.com</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+                <p>&copy; 2024 Oji Fibre Solutions (NZ) Ltd. All rights reserved.</p>
+                <p class="mt-2">Proud member of the Global Oji Group of Companies</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        // Chat Widget Functionality
+        const chatButton = document.getElementById('chatButton');
+        const chatModal = document.getElementById('chatModal');
+        let isModalOpen = false;
+
+        chatButton.addEventListener('click', () => {
+            isModalOpen = !isModalOpen;
+            if (isModalOpen) {
+                chatModal.classList.add('active');
+            } else {
+                chatModal.classList.remove('active');
+            }
+        });
+
+        // Close chat if clicking outside
+        document.addEventListener('click', (e) => {
+            if (isModalOpen && !chatModal.contains(e.target) && !chatButton.contains(e.target)) {
+                isModalOpen = false;
+                chatModal.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html> 
